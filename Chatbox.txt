@@ -1,0 +1,163 @@
+namespace Chatbox
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.nav_pnl = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Back_btn = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.msgbox = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Body_pnl = new System.Windows.Forms.Panel();
+            this.nav_pnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Back_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // nav_pnl
+            // 
+            this.nav_pnl.BackColor = System.Drawing.Color.Turquoise;
+            this.nav_pnl.Controls.Add(this.label1);
+            this.nav_pnl.Controls.Add(this.Back_btn);
+            this.nav_pnl.Controls.Add(this.pictureBox2);
+            this.nav_pnl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.nav_pnl.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.nav_pnl.Location = new System.Drawing.Point(0, 0);
+            this.nav_pnl.Name = "nav_pnl";
+            this.nav_pnl.Size = new System.Drawing.Size(1074, 74);
+            this.nav_pnl.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(129, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(220, 48);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Chat with admin";
+            // 
+            // Back_btn
+            // 
+            this.Back_btn.Image = global::Chatbox.Properties.Resources.back2;
+            this.Back_btn.Location = new System.Drawing.Point(1016, 23);
+            this.Back_btn.Name = "Back_btn";
+            this.Back_btn.Size = new System.Drawing.Size(45, 34);
+            this.Back_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Back_btn.TabIndex = 1;
+            this.Back_btn.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Chatbox.Properties.Resources.man_chating_with_smartphone_vector;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(95, 74);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Turquoise;
+            this.panel2.Controls.Add(this.msgbox);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 434);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1074, 85);
+            this.panel2.TabIndex = 1;
+            // 
+            // msgbox
+            // 
+            this.msgbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msgbox.Location = new System.Drawing.Point(12, 12);
+            this.msgbox.Name = "msgbox";
+            this.msgbox.Size = new System.Drawing.Size(963, 61);
+            this.msgbox.TabIndex = 1;
+            this.msgbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Chatbox.Properties.Resources.download;
+            this.pictureBox1.Location = new System.Drawing.Point(981, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(81, 61);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Body_pnl
+            // 
+            this.Body_pnl.BackColor = System.Drawing.Color.White;
+            this.Body_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Body_pnl.Location = new System.Drawing.Point(0, 74);
+            this.Body_pnl.Name = "Body_pnl";
+            this.Body_pnl.Size = new System.Drawing.Size(1074, 360);
+            this.Body_pnl.TabIndex = 2;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1074, 519);
+            this.Controls.Add(this.Body_pnl);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.nav_pnl);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.nav_pnl.ResumeLayout(false);
+            this.nav_pnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Back_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel nav_pnl;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel Body_pnl;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox Back_btn;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox msgbox;
+    }
+}
+
